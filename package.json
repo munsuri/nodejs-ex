@@ -18,7 +18,8 @@
     "npm": "*"
   },
   "scripts": {
-    "start": "cd programs/server && npm run-script install && node main.js",
+    "install": "cd programs/server && npm run-script install",
+    "start": "node main.js",
     "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
   },
   "repository": {
