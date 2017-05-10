@@ -30,4 +30,4 @@ if( mongoURL == null && process.env.DATABASE_SERVICE_NAME ){
   process.env['MONGO_URL'] = mongoURL;
 }
 
-require('main.js');
+require('./main.js');
